@@ -1,0 +1,135 @@
+:root {
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+    --fuenteAlternativa: font-family: 'Roboto', sans-serif;
+    --primario: #784d3c; 
+    --gris: #e1e1e1;
+    --blanco: #ffffff;
+    --negro: #00000000;
+
+}
+html {
+    font-size: 62.5%;
+
+    }
+
+    h1, h2, h3, h4 {
+        font-family: var(--fuenteHeading);
+        line-height: 1.2;
+    }
+    h1 {
+        font-size: 4.5rem;
+        text-align: center;
+    }
+    h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    h3 {
+        font-size: 3.2rem;
+        color: rgb(9, 100, 100);
+    }
+    
+.bg-blue {
+    background-color: #8f6352c4;
+}
+.nav-item {
+    font-size: 2rem;
+    color: black;
+}
+.nav-link {
+    color: black;
+}
+
+.logo__nombre {
+    font-weight: 400;
+}
+.logo__bold {
+    font-weight: 700;
+}
+
+.tituloprincipal {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.textgoogle {
+    color: rgb(29, 46, 46);
+    font-size: 3.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.btn-bluedark {
+    background-color: rgb(22, 22, 68);
+    color: white;
+}
+
+.bg-formulario {
+    background-color: rgb(206, 204, 204);
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+@media (min-width: 280px) and (max-width: 300px) {
+    #botonera img {
+        width: 150px;
+    }
+}
+
+
+/**Footer**/
+.footer {
+    background: linear-gradient(to top, rgb(27, 21, 49), rgb(133, 133, 132) );
+    padding-top: 3rem;
+    margin-top: 4rem;
+}
+
+.textodelfooter {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+
+/**CSS en Promociones**/
+.tituloprincipal2 {
+    background: linear-gradient(to top, rgb(41, 20, 20), rgb(133, 133, 132) );
+    color: white;
+}
+
+.curso {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+
+    .curso {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+
+.curso:last-of-type {
+border: none;
+}
+.curso__label {
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+.curso__info {
+    font-weight: normal;
+}
+.curso__label,
+.curso__info {
+    font-size: 2rem;
+}
+
+h3.titulardelmes {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
