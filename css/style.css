@@ -84,8 +84,8 @@ p {
 
 
 /**Footer**/
-.footer {
-    background: linear-gradient(to top, rgb(27, 21, 49), rgb(133, 133, 132) );
+.bg-dark {
+    background: linear-gradient(to top, rgb(17, 16, 20), rgb(133, 133, 132) );
     padding-top: 3rem;
     margin-top: 4rem;
 }
