@@ -31,7 +31,8 @@ html {
     }
     
 .bg-blue {
-    background-color: #8f6352c4;
+    background-color: #c79b8ac4;
+    color: black;
 }
 .nav-item {
     font-size: 2rem;
@@ -64,10 +65,16 @@ html {
 .btn-bluedark {
     background-color: rgb(22, 22, 68);
     color: white;
+    font-size: 2rem;
 }
 
 .bg-formulario {
     background-color: rgb(206, 204, 204);
+}
+
+.bg-red {
+    background-color: black;
+    color: white;
 }
 
 p {
@@ -88,6 +95,7 @@ p {
     background: linear-gradient(to top, rgb(17, 16, 20), rgb(133, 133, 132) );
     padding-top: 3rem;
     margin-top: 4rem;
+    
 }
 
 .textodelfooter {
@@ -96,7 +104,11 @@ p {
     text-align: center;
 }
 
-
+.btn-bluedark2 {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
 /**CSS en Promociones**/
 .tituloprincipal2 {
     background: linear-gradient(to top, rgb(41, 20, 20), rgb(133, 133, 132) );
@@ -132,4 +144,67 @@ border: none;
 h3.titulardelmes {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/**CSS EN BLOG**/
+h4.mb-5 {
+    font-size: 4rem;
+    color: #201919;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h5.card-title {
+    font-size: 2rem;
+}
+
+/**CSS EN  CONTACTO**/
+.contacto-bg {
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario {
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.campo__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+.campo__field {
+    flex: 1;
+    border: 1px solid var(--gris);
+}
+.campo__field--textarea {
+    height: 20rem;
+}
+
+.campo3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h3.centrar-texto {
+    text-align: center;
+    font-size: 3 rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 768px) {
+    .contenido-principal {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
 }
