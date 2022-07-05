@@ -17,7 +17,6 @@
     <title>Café Amsterdam | Especialistas en CAFÉ</title>
 </head>
 <body>
-
 <!-- Inicia la nav-->
 <nav class="navbar navbar-expand-lg navbar-light bg-blue sticky-top">
 <div class="container-fluid">
@@ -56,50 +55,28 @@
     </div>
 </header>
 
-<main>
-<section>
-<!--inicio del formulario-->
-<main class="contenedor">
-    <h3 class="centrar-texto">COMPLETE SUS DATOS Y NOS CONTACTAREMOS A LA BREVEDAD</h3>
+<main class="bg-light">
+    <div class="text-center text-dark p-4 mb-3" id="font-titles">CONTACTO</div>
+<div class="row mx-5 mb-5 border border-3 border-dark rounded-3 p-4">
+    <div class="tx-1">
+        <label for="exampleFormControlInput1" class="form-label">Nombre:</label>
+        <input type="text" class="form-control border border-1 border-dark rounded-1" placeholder="">
+    </div>
+    <div class="tx-1">
+        <label for="exampleFormControlInput1" class="form-label">Correo electrónico:</label>
+        <input type="email" class="form-control border border-1 border-dark rounded-1" placeholder="nombre@mail.com">
+    </div>
+    <div class="tx-1">
+        <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu mensaje</label>
+        <textarea class="form-control border border-1 border-dark rounded-1" rows="3"></textarea>
+    </div>
+    <div class="enviar1">
+        <button class="btn btn-outline-success" type="submit">Enviar</button>
+    </div>
+</div>
 
-    <div class="contacto-bg"></div>
-
-    <form class="formulario">
-        <div class="campo">
-            <label class="campo__label" for="nombre">Nombre</label>
-            <input 
-                class="campo__field"
-                type="text" 
-                placeholder="Tu Nombre" 
-                id="nombre"
-            >
-        </div>
-        <div class="campo">
-            <label class="campo__label" for="email">E-mail</label>
-            <input 
-                class="campo__field"
-                type="email" 
-                placeholder="Tu E-mail" 
-                id="email"
-            >
-        </div>
-        <div class="campo">
-            <label class="campo__label" for="mensaje">Mensaje</label>
-            <textarea 
-                class="campo__field campo__field--textarea"
-                id="mensaje"
-            ></textarea>
-        </div>
-
-        <div class="campo3">
-            <input type="submit" value="Enviar" class="boton boton--primario">
-        </div>
-    </form>
-
-    
 </main>
 <!--Cierre del formulario-->
-
 
 
 <!-- inicio del footer-->
