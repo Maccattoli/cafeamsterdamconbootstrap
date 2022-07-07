@@ -31,6 +31,44 @@ html {
         color: rgb(9, 100, 100);
     }
     
+    #botonera{
+        animation-name: textAlpha;
+        animation-duration: 4s;
+    }
+
+    #botonera img 
+{
+    width: 150px;
+    
+}
+
+#botonera nav ul li a{
+    background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+		}
+
+		nav ul li a:hover{
+			color: black;
+			font-weight: 600;
+
+		}
+        
+        li{
+            animation-name: textAlpha;
+            animation-duration: 4s;
+        }
+
+@keyframes textAlpha{
+    from{opacity: 0;}
+    to{opacity: 1;}
+    }
+
+.nav-item {
+    color: #201919;
+}
+
 .bg-blue {
     background-color: #c79b8ac4;
     color: black;
@@ -93,7 +131,7 @@ p {
 
 /**Footer**/
 .bg-dark {
-    background: linear-gradient(to top, rgb(17, 16, 20), rgb(133, 133, 132) );
+    background: linear-gradient(to top, rgb(48, 30, 100), rgb(133, 133, 132) );
     padding-top: 3rem;
     margin-top: 4rem;
     
