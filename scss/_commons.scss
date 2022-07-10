@@ -3,65 +3,154 @@
 	padding:0;
 }
 
+html {
+	font-size: 62.5%;
+}
+
 h1,
 h2,
-h3{
-	font-family: $secondaryFont;
-	color:$keyColor;
-	margin: 10px 20px;
-	font-weight: $bold;
-}
-
-h1{
-	font-size: $textXl;
-}
-
-h2{
-	font-size: $textLg;
-}
-
-h3{
-	font-size: $textMd;
-}
-
-p{
-	margin: 10px 20px;
+h3,
+h4,
+h5 {
 	font-family: $mainFont;
-	line-height: 1.4em;
-	font-size: $textMd;
-	color:$black;
+	line-height: 1.2;
 }
 
-a{
-	margin: 10px 20px;
-	color:$keyColor;
-	font-size: $textMd;
-	text-decoration: none;
-	font-family: $mainFont;
-}
-
-//backgrounds 
-.bgLight{
-	background-color:$mainColor;
-}
-
-.bgDark{
-	background-color:$black;
-}
-
-.btnXl{
-	width:50%;
-	height: 30px;
-	background-color: $white;
-	color: $keyColor;
+h1 {
+	font-size: 4.5rem;
 	text-align: center;
-	text-decoration: none;
-	border-radius: 5px;
-	margin-left: 50px;
-	font-size: 2rem;
-	/****display flex****/
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
-	
+h2 {
+	font-size: 4rem;
+	text-align: center;
+}
+h3 {
+	font-size: 3.2rem;
+	color: rgb(9, 100, 100);
+}
+
+h5 {
+	font-size: 2.5rem;
+	font-family: $secondaryFont;
+}
+
+p {
+font-family: $mainFont;
+}
+
+.tituloprincipal {
+    line-height: 1.6em;
+    font-size: 3rem;
+    text-align: center;
+    color: $white;
+    background-color: $black;
+}
+
+.textgoogle {
+    color: rgb(29, 46, 46);
+    font-size: 3.8rem;
+    font-family: $mainFont;
+    text-align: center;
+}
+
+.btn-bluedark {
+    background-color: $azuloscuro;
+    color: $white;
+    font-size: 2rem;
+}
+
+.bg-formulario {
+    background-color: $white;
+}
+
+.bg-red {
+    background-color: $black;
+    color: $white;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+/**CSS en Promociones**/
+.tituloprincipal2 {
+    background: linear-gradient(to top, rgb(41, 20, 20), rgb(133, 133, 132) );
+    color: $white;
+}
+
+.curso {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+
+    .curso {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+
+.curso:last-of-type {
+border: none;
+}
+.curso__label {
+    font-family: var(--fuenteHeading);
+    font-weight: $bold;
+}
+.curso__info {
+    font-weight: normal;
+}
+.curso__label,
+.curso__info {
+    font-size: 2rem;
+}
+
+h3.titulardelmes {
+    text-align: center;
+    font-family: $mainFont;
+}
+
+/**CSS EN BLOG**/
+h4.mb-5 {
+    font-size: 4rem;
+    color: $titularenblog;
+    font-family: $secondaryFont;
+}
+
+h5.card-title {
+    font-size: 2rem;
+}
+
+/**CSS EN  CONTACTO**/
+
+.text-dark {
+    font-size: 3rem;
+    font-family: $mainFont;
+}
+
+.tx-1 {
+    font-size: 2rem;
+}
+
+.enviar1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+/**CSS EN CURSOS**/
+.fw-bold {
+    font-size: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.text-muted {
+    font-size: 1.5rem;
+    
+}
+
+p.text-muted {
+    text-align: left;
+}
+

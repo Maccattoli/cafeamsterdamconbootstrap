@@ -1,242 +1,187 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto:wght@300&display=swap');
-:root {
-    --fuenteHeading: 'PT Sans', sans-serif;
-    --fuenteParrafos: 'Open Sans', sans-serif;
-    --fuenteAlternativa: font-family: 'Roboto', sans-serif;
-    --primario: #784d3c; 
-    --gris: #e1e1e1;
-    --blanco: #ffffff;
-    --negro: #00000000;
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto&display=swap");
+.botonera {
+  animation-name: textAlpha;
+  animation-duration: 4s; }
+  .botonera .botonera img {
+    width: 150px; }
+    .botonera .botonera img .botonera nav ul li a {
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size .3s; }
+      nav ul li .botonera .botonera img .botonera nav ul li a:hover {
+        color: black;
+        font-weight: 600; }
+        nav ul li .botonera .botonera img .botonera nav ul li a:hover li {
+          animation-name: textAlpha;
+          animation-duration: 4s; }
 
-}
-html {
-    font-size: 62.5%;
-
-    }
-
-    h1, h2, h3, h4, h5 {
-        font-family: 'Roboto', sans-serif;
-        line-height: 1.2;
-    }
-    h1 {
-        font-size: 4.5rem;
-        text-align: center;
-    }
-    h2 {
-        font-size: 4rem;
-        text-align: center;
-    }
-    h3 {
-        font-size: 3.2rem;
-        color: rgb(9, 100, 100);
-    }
-
-    h5 {
-        font-size: 2.5rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    
-p {
-    font-family: 'Nunito Sans', sans-serif;
-}
-
-    #botonera{
-        animation-name: textAlpha;
-        animation-duration: 4s;
-    }
-
-    #botonera img 
-{
-    width: 150px;
-    
-}
-
-#botonera nav ul li a{
-    background-position: 0% 100%;
-        background-repeat: no-repeat;
-        background-size: 0% 2px;
-        transition: background-size .3s;
-		}
-
-		nav ul li a:hover{
-			color: black;
-			font-weight: 600;
-
-		}
-        
-        li{
-            animation-name: textAlpha;
-            animation-duration: 4s;
-        }
-
-@keyframes textAlpha{
-    from{opacity: 0;}
-    to{opacity: 1;}
-    }
+@keyframes textAlpha {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 
 .nav-item {
-    color: #201919;
-}
+  color: #201919; }
 
 .bg-blue {
-    background-color: #c79b8ac4;
-    color: black;
-}
-.nav-item {
-    font-size: 2rem;
-    color: black;
-}
-.nav-link {
-    color: black;
+  background-color: #c79b8ac4;
+  color: black; }
 
-}
+.nav-item {
+  font-size: 2rem;
+  color: black; }
+
+.nav-link {
+  color: black; }
 
 .logo__nombre {
-    font-weight: 400;
-}
+  font-weight: 400; }
+
 .logo__bold {
-    font-weight: 700;
-}
+  font-weight: 600; }
 
-.tituloprincipal {
-    line-height: 1.6em;
-    font-size: 3rem;
-    text-align: center;
-    color: white;
-    background-color: black;
-}
+* {
+  margin: 0;
+  padding: 0; }
 
-.textgoogle {
-    color: rgb(29, 46, 46);
-    font-size: 3.8rem;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-}
+html {
+  font-size: 62.5%; }
 
-.btn-bluedark {
-    background-color: rgb(22, 22, 68);
-    color: white;
-    font-size: 2rem;
-}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2; }
 
-.bg-formulario {
-    background-color: rgb(206, 204, 204);
-}
+h1 {
+  font-size: 4.5rem;
+  text-align: center; }
 
-.bg-red {
-    background-color: black;
-    color: white;
-}
+h2 {
+  font-size: 4rem;
+  text-align: center; }
+
+h3 {
+  font-size: 3.2rem;
+  color: #096464; }
+
+h5 {
+  font-size: 2.5rem;
+  font-family: "Nunito Sans", sans-serif; }
 
 p {
-    font-size: 1.4rem;
-    line-height: 1.6em;
-    text-align: center;
-}
+  font-family: "Roboto", sans-serif; }
 
-@media (min-width: 280px) and (max-width: 300px) {
-    #botonera img {
-        width: 150px;
-    }
-}
+.tituloprincipal {
+  line-height: 1.6em;
+  font-size: 3rem;
+  text-align: center;
+  color: #F5F0F0;
+  background-color: #0F0E0E; }
 
+.textgoogle {
+  color: #1d2e2e;
+  font-size: 3.8rem;
+  font-family: "Roboto", sans-serif;
+  text-align: center; }
 
-/**Footer**/
-.bg-dark {
-    background: linear-gradient(to top, rgb(48, 30, 100), rgb(133, 133, 132) );
-    padding-top: 3rem;
-    margin-top: 4rem;
-    
-}
+.btn-bluedark {
+  background-color: #0f0f4b;
+  color: #F5F0F0;
+  font-size: 2rem; }
 
-.textodelfooter {
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-}
+.bg-formulario {
+  background-color: #F5F0F0; }
 
-.btn-bluedark2 {
-    background-color: black;
-    color: white;
-    font-size: 2rem;
-}
+.bg-red {
+  background-color: #0F0E0E;
+  color: #F5F0F0; }
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.6em;
+  text-align: center; }
+
 /**CSS en Promociones**/
 .tituloprincipal2 {
-    background: linear-gradient(to top, rgb(41, 20, 20), rgb(133, 133, 132) );
-    color: white;
-}
+  background: linear-gradient(to top, #291414, #858584);
+  color: #F5F0F0; }
 
 .curso {
-    padding: 3rem 0;
-    border-bottom: 1px solid var(--gris);
-}
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--gris); }
 
-    .curso {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        column-gap: 2rem;
-    }
+.curso {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 2rem; }
 
 .curso:last-of-type {
-border: none;
-}
+  border: none; }
+
 .curso__label {
-    font-family: var(--fuenteHeading);
-    font-weight: bold;
-}
+  font-family: var(--fuenteHeading);
+  font-weight: 600; }
+
 .curso__info {
-    font-weight: normal;
-}
+  font-weight: normal; }
+
 .curso__label,
 .curso__info {
-    font-size: 2rem;
-}
+  font-size: 2rem; }
 
 h3.titulardelmes {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
+  text-align: center;
+  font-family: "Roboto", sans-serif; }
 
 /**CSS EN BLOG**/
 h4.mb-5 {
-    font-size: 4rem;
-    color: #201919;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+  font-size: 4rem;
+  color: #201919;
+  font-family: "Nunito Sans", sans-serif; }
+
 h5.card-title {
-    font-size: 2rem;
-}
+  font-size: 2rem; }
 
 /**CSS EN  CONTACTO**/
 .text-dark {
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif; }
 
 .tx-1 {
-    font-size: 2rem;
-}
+  font-size: 2rem; }
 
 .enviar1 {
-    font-size: 3rem;
-    text-align: center;
-}
+  font-size: 3rem;
+  text-align: center; }
 
 /**CSS EN CURSOS**/
 .fw-bold {
-    font-size: 2rem;
-    font-family: 'Nunito Sans', sans-serif;
-
-}
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif; }
 
 .text-muted {
-    font-size: 1.5rem;
-    
-}
+  font-size: 1.5rem; }
 
 p.text-muted {
-    text-align: left;
-}
+  text-align: left; }
 
+/**Footer**/
+.bg-dark {
+  background: linear-gradient(to top, #301e64, #858584);
+  padding-top: 3rem;
+  margin-top: 4rem; }
+
+.textodelfooter {
+  font-size: 2rem;
+  color: white;
+  text-align: center; }
+
+.btn-bluedark2 {
+  background-color: black;
+  color: white;
+  font-size: 2rem; }

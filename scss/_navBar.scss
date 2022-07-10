@@ -1,35 +1,52 @@
 //nesting - anidación
-.botonera{
-	background-color:$secondaryColor;
-	padding: 5px 20px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	img{
-		width: 150px;
-		@media (min-width: 320px) and (max-width: 320px){
-			width: 100px;
-		}
-	}
-	ul{
-		display: flex;
-		li{
-			list-style: none;
-			margin-right: 10px;
-			a{
-				font-family: $mainFont;
-				font-size: $textMd;
-				text-decoration: none;
-				color:$black;
-				&:hover{
-					color:$keyColor;
-				}
-			}
-		}
-	}
+
+.botonera {
+    animation-name: textAlpha;
+    animation-duration: 4s;
+    .botonera img {
+        width: 150px;
+        .botonera nav ul li a {
+            background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition: background-size .3s;
+                nav ul li &:hover {
+                    color: black;
+                    font-weight: $bold;
+                    li {
+                        animation-name: textAlpha;
+                        animation-duration: 4s;
+                        }
+                }
+                }
+    }
 }
 
+@keyframes textAlpha{
+from{opacity: 0;}
+to{opacity: 1;}
+}
 
+.nav-item {
+color: #201919;
+}
 
+.bg-blue {
+background-color: #c79b8ac4;
+color: black;
+}
+.nav-item {
+font-size: 2rem;
+color: black;
+}
+.nav-link {
+color: black;
 
+}
 
+.logo__nombre {
+font-weight: $regular;
+}
+.logo__bold {
+font-weight: $bold;
+}
