@@ -14,8 +14,8 @@ html {
 
     }
 
-    h1, h2, h3, h4 {
-        font-family: 'Times New Roman', Times, serif;
+    h1, h2, h3, h4, h5 {
+        font-family: 'Roboto', sans-serif;
         line-height: 1.2;
     }
     h1 {
@@ -36,6 +36,10 @@ html {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
+p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
     #botonera{
         animation-name: textAlpha;
         animation-duration: 4s;
