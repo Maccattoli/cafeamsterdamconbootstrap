@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto&display=swap");
+.btn-bluedark, .btn-bluedark2 {
+  width: 100px;
+  height: 30px;
+  background-color: #0f0f4b;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F5F0F0;
+  font-size: 2rem; }
+  .btn-bluedark:hover, .btn-bluedark2:hover {
+    background-color: #a18e99;
+    color: white; }
+
+.btn-bluedark2:hover {
+  background-color: #8975df;
+  color: white; }
+
+.bg-red {
+  background-color: #292829; }
+
 .botonera {
   animation-name: textAlpha;
   animation-duration: 4s; }
@@ -88,11 +109,6 @@ p {
   font-size: 3.8rem;
   font-family: "Roboto", sans-serif;
   text-align: center; }
-
-.btn-bluedark {
-  background-color: #0f0f4b;
-  color: #F5F0F0;
-  font-size: 2rem; }
 
 .bg-formulario {
   background-color: #F5F0F0; }
