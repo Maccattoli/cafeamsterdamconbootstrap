@@ -175,17 +175,6 @@ h5.card-title {
   font-size: 3rem;
   text-align: center; }
 
-/**CSS EN CURSOS**/
-.fw-bold {
-  font-size: 2rem;
-  font-family: 'Nunito Sans', sans-serif; }
-
-.text-muted {
-  font-size: 1.5rem; }
-
-p.text-muted {
-  text-align: left; }
-
 /**Footer**/
 .bg-dark {
   background: linear-gradient(to top, #301e64, #858584);
