@@ -84,3 +84,8 @@ opacity: 1;
 }
 
 
+.bg-blue {
+    background-color: wheat;
+    color: black;
+    padding: 0.5rem;
+}
